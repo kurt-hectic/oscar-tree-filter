@@ -1,0 +1,1789 @@
+[
+	{
+		"id": 1,
+		"name": "(unknown)",
+		"children": [],
+		"visibility": 1
+	},
+	{
+		"id": 2,
+		"name": "Atmosphere",
+		"children": [
+			{
+				"id": 4,
+				"name": "Aerosol",
+				"children": [
+					{
+						"id": 25,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 92,
+								"name": "Composition",
+								"children": [
+									{
+										"id": 217,
+										"name": "Aerodyne mass spectrometer (AMS)",
+										"children": []
+									},
+									{
+										"id": 218,
+										"name": "EUSAAR protocol",
+										"children": []
+									},
+									{
+										"id": 219,
+										"name": "Filter + beta attenuation (betameter, beta gauge)",
+										"children": []
+									},
+									{
+										"id": 221,
+										"name": "Mass Spectrometry (MS) [general]",
+										"children": []
+									},
+									{
+										"id": 222,
+										"name": "Monitor for AeRosols and GAses (MARGA)",
+										"children": []
+									},
+									{
+										"id": 223,
+										"name": "Particle induced x-ray emission (PIXE)",
+										"children": []
+									},
+									{
+										"id": 225,
+										"name": "Thermo-optical analyzer (Sunset Labs)",
+										"children": []
+									},
+									{
+										"id": 226,
+										"name": "X-ray fluorescence (XRF)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 160,
+								"name": "Optical properties",
+								"children": [
+									{
+										"id": 220,
+										"name": "Filter + light attenuation (aethalometer)",
+										"children": []
+									},
+									{
+										"id": 224,
+										"name": "Particle soot absorption photometry (PSAP)",
+										"children": []
+									},
+									{
+										"id": 227,
+										"name": "Aerodynamic particle sizing spectrometer (APS)",
+										"children": []
+									},
+									{
+										"id": 228,
+										"name": "Aerosol backscatter sonde",
+										"children": []
+									},
+									{
+										"id": 229,
+										"name": "Light scattering",
+										"children": []
+									},
+									{
+										"id": 230,
+										"name": "Nephelometry, integrating",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 169,
+								"name": "Physical properties",
+								"children": [
+									{
+										"id": 231,
+										"name": "Cloud condensation nuclei (CCN) counter",
+										"children": []
+									},
+									{
+										"id": 232,
+										"name": "Condensation particle counter (CPC)",
+										"children": []
+									},
+									{
+										"id": 233,
+										"name": "Continuous gravimetry",
+										"children": []
+									},
+									{
+										"id": 234,
+										"name": "Differential mobility particle sizer (DMA, DMPS)",
+										"children": []
+									},
+									{
+										"id": 235,
+										"name": "Diffusion battery",
+										"children": []
+									},
+									{
+										"id": 236,
+										"name": "Electric mobility [general]",
+										"children": []
+									},
+									{
+										"id": 237,
+										"name": "Electrostatic classifier",
+										"children": []
+									},
+									{
+										"id": 238,
+										"name": "Multiangle absorption photometry (MAAP)",
+										"children": []
+									},
+									{
+										"id": 239,
+										"name": "Multistage impactor",
+										"children": []
+									},
+									{
+										"id": 240,
+										"name": "Optical particle counter (OPC)",
+										"children": []
+									},
+									{
+										"id": 241,
+										"name": "Scanning mobility particle sizer (SMPS)",
+										"children": []
+									},
+									{
+										"id": 242,
+										"name": "Twomey static thermal diffusion chamber",
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 42,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 161,
+								"name": "Optical properties",
+								"children": [
+									{
+										"id": 243,
+										"name": "Light detection and ranging (Lidar) profiler",
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 50,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 162,
+								"name": "Optical properties",
+								"children": [
+									{
+										"id": 244,
+										"name": "Sun-tracking photometry",
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"name": "Clouds",
+				"children": [
+					{
+						"id": 24,
+						"name": "Human observation",
+						"children": []
+					},
+					{
+						"id": 43,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 140,
+								"name": "Laser-based methods",
+								"children": [
+									{
+										"id": 245,
+										"name": "Ceilometer",
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"name": "Dynamics",
+				"children": [
+					{
+						"id": 41,
+						"name": "Numerical model",
+						"children": [
+							{
+								"id": 104,
+								"name": "Dispersion",
+								"children": [
+									{
+										"id": 246,
+										"name": "Flexpart (dispersion modeling)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 206,
+								"name": "Trajectories",
+								"children": [
+									{
+										"id": 247,
+										"name": "Flextra (trajectory modeling)",
+										"children": []
+									},
+									{
+										"id": 248,
+										"name": "Hysplit (trajectory modeling)",
+										"children": []
+									},
+									{
+										"id": 249,
+										"name": "Lagranto (trajectory modeling)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 208,
+								"name": "Transport modeling (model unspecified)",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 7,
+				"name": "Evaporation",
+				"children": [
+					{
+						"id": 26,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 68,
+								"name": "Atmometer",
+								"children": []
+							},
+							{
+								"id": 113,
+								"name": "Evaporation pan and-or tank",
+								"children": []
+							},
+							{
+								"id": 146,
+								"name": "Lysimeter",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8,
+				"name": "Humidity",
+				"children": [
+					{
+						"id": 27,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 81,
+								"name": "Capacitive method",
+								"children": [
+									{
+										"id": 250,
+										"name": "Thin film capacitance",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 100,
+								"name": "Dewpoint determination",
+								"children": [
+									{
+										"id": 251,
+										"name": "Chilled mirror",
+										"children": []
+									},
+									{
+										"id": 252,
+										"name": "Lithium chloride (LiCl)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 131,
+								"name": "Hygrometer",
+								"children": [
+									{
+										"id": 253,
+										"name": "Hair hygrometer-hygrograph",
+										"children": []
+									},
+									{
+										"id": 254,
+										"name": "Hygrometer [general]",
+										"children": []
+									},
+									{
+										"id": 255,
+										"name": "IR absorption hygrometer",
+										"children": []
+									},
+									{
+										"id": 256,
+										"name": "Optical hygrometer",
+										"children": []
+									},
+									{
+										"id": 257,
+										"name": "UV absorption hygrometer (Lyman-á)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 178,
+								"name": "Psychrometer",
+								"children": [
+									{
+										"id": 258,
+										"name": "Electrical aspiration (Frankenberger type)",
+										"children": []
+									},
+									{
+										"id": 259,
+										"name": "Mechanical aspiration",
+										"children": []
+									},
+									{
+										"id": 340,
+										"name": "Wet-bulb thermometer",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 337,
+								"name": "Laser-based",
+								"children": [
+									{
+										"id": 338,
+										"name": "Tunable diode lase spectroscopy (TDLS)",
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 44,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 143,
+								"name": "Light detection and ranging (Lidar)",
+								"children": []
+							},
+							{
+								"id": 181,
+								"name": "Radio acoustic sounding system (RASS)",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 51,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 152,
+								"name": "Microtops",
+								"children": []
+							},
+							{
+								"id": 155,
+								"name": "Microwave radiometry",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 9,
+				"name": "Lightning",
+				"children": [
+					{
+						"id": 52,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 69,
+								"name": "Atmospherics (\"sferics\") detection",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 10,
+				"name": "Micrometeorology",
+				"children": [
+					{
+						"id": 28,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 77,
+								"name": "Bowen-ratio method",
+								"children": []
+							},
+							{
+								"id": 97,
+								"name": "Cuvette",
+								"children": []
+							},
+							{
+								"id": 103,
+								"name": "Disjunct eddy covariance method",
+								"children": []
+							},
+							{
+								"id": 105,
+								"name": "Dissipation method",
+								"children": []
+							},
+							{
+								"id": 108,
+								"name": "Eddy accumulation method",
+								"children": []
+							},
+							{
+								"id": 109,
+								"name": "Eddy covariance method",
+								"children": []
+							},
+							{
+								"id": 123,
+								"name": "Flux variance method",
+								"children": []
+							},
+							{
+								"id": 125,
+								"name": "Gradient method",
+								"children": []
+							},
+							{
+								"id": 136,
+								"name": "Interferential method",
+								"children": []
+							},
+							{
+								"id": 147,
+								"name": "Mass balance method",
+								"children": []
+							},
+							{
+								"id": 199,
+								"name": "Surface chamber",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 11,
+				"name": "Ozone",
+				"children": [
+					{
+						"id": 29,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 79,
+								"name": "Brewer-GDR",
+								"children": []
+							},
+							{
+								"id": 80,
+								"name": "Brewer-Mast Sonde",
+								"children": []
+							},
+							{
+								"id": 84,
+								"name": "Carbon-Iodine Sonde (KC Sonde)",
+								"children": []
+							},
+							{
+								"id": 107,
+								"name": "ECC Sonde",
+								"children": []
+							},
+							{
+								"id": 135,
+								"name": "Indian Sonde",
+								"children": []
+							},
+							{
+								"id": 166,
+								"name": "Ozone sonde (unspecified)",
+								"children": []
+							},
+							{
+								"id": 171,
+								"name": "Potassium iodide (KI) method",
+								"children": []
+							},
+							{
+								"id": 186,
+								"name": "Regener Sonde (chemiluminescence)",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 53,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 58,
+								"name": "(Optical) filter Instrument",
+								"children": []
+							},
+							{
+								"id": 78,
+								"name": "Brewer",
+								"children": []
+							},
+							{
+								"id": 106,
+								"name": "Dobson",
+								"children": []
+							},
+							{
+								"id": 153,
+								"name": "Microtops",
+								"children": []
+							},
+							{
+								"id": 156,
+								"name": "Microwave radiometry",
+								"children": []
+							},
+							{
+								"id": 189,
+								"name": "SAOZ (UV-vis diode array spectrometer)",
+								"children": []
+							},
+							{
+								"id": 210,
+								"name": "Umkehr method",
+								"children": []
+							},
+							{
+								"id": 339,
+								"name": "UV spectroradiometry",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 333,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 334,
+								"name": "Laser-based methods",
+								"children": [
+									{
+										"id": 335,
+										"name": "Differential absorption Lidar (DIAL)",
+										"children": []
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 12,
+				"name": "Precipitation",
+				"children": [
+					{
+						"id": 30,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 59,
+								"name": "(Ruler for) rain gauge",
+								"children": []
+							},
+							{
+								"id": 82,
+								"name": "Capacitive rain sensor",
+								"children": []
+							},
+							{
+								"id": 102,
+								"name": "Disdrometer (drop spectrographs)",
+								"children": []
+							},
+							{
+								"id": 127,
+								"name": "Gravimetry [general]",
+								"children": []
+							},
+							{
+								"id": 170,
+								"name": "Pluviograph",
+								"children": []
+							},
+							{
+								"id": 204,
+								"name": "Tipping bucket rain gauge (totalizer)",
+								"children": []
+							},
+							{
+								"id": 211,
+								"name": "Volumetric measurement",
+								"children": []
+							},
+							{
+								"id": 212,
+								"name": "Weighing type rain gauge (totalizer)",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 45,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 183,
+								"name": "Radio detection and ranging (Radar)",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 13,
+				"name": "Pressure",
+				"children": [
+					{
+						"id": 31,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 66,
+								"name": "Aneroid barometer (evacuated capsule)",
+								"children": []
+							},
+							{
+								"id": 73,
+								"name": "Barometer, mercury column",
+								"children": []
+							},
+							{
+								"id": 74,
+								"name": "Barometer, mercury-free column",
+								"children": []
+							},
+							{
+								"id": 111,
+								"name": "Electronic pressure transducer (silicon diaphragm)",
+								"children": []
+							},
+							{
+								"id": 132,
+								"name": "Hypsometer (water boiling point)",
+								"children": []
+							},
+							{
+								"id": 150,
+								"name": "Microbarometer (dewar)",
+								"children": []
+							},
+							{
+								"id": 174,
+								"name": "Pressure balance (piston)",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 14,
+				"name": "Radiation",
+				"children": [
+					{
+						"id": 32,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 72,
+								"name": "BSRN compliant instrument",
+								"children": []
+							},
+							{
+								"id": 101,
+								"name": "Direct solar",
+								"children": [
+									{
+										"id": 263,
+										"name": "Bimetallic actinograph",
+										"children": []
+									},
+									{
+										"id": 264,
+										"name": "Pyrheliometer (direct solar, broadband)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 145,
+								"name": "Longwave",
+								"children": [
+									{
+										"id": 265,
+										"name": "Pyrgeometer (global, infrared)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 180,
+								"name": "Pyrradiometer (total global, UV+IR)",
+								"children": []
+							},
+							{
+								"id": 192,
+								"name": "Shortwave",
+								"children": [
+									{
+										"id": 266,
+										"name": "Pyranometer (global solar, broadband)",
+										"children": []
+									},
+									{
+										"id": 267,
+										"name": "Spectral pyranometer",
+										"children": []
+									},
+									{
+										"id": 268,
+										"name": "UV-vis spectrometry-radiometry",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 197,
+								"name": "Sunphotometry-Filter Radiometry",
+								"children": []
+							},
+							{
+								"id": 198,
+								"name": "Sunshine duration",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 54,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 151,
+								"name": "Microtops",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 15,
+				"name": "Radioactivity",
+				"children": [
+					{
+						"id": 33,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 62,
+								"name": "Adsorption - scintillation counting",
+								"children": []
+							},
+							{
+								"id": 64,
+								"name": "Alpha counting",
+								"children": []
+							},
+							{
+								"id": 75,
+								"name": "Beta counting",
+								"children": []
+							},
+							{
+								"id": 115,
+								"name": "Filter sampling + alpha counting",
+								"children": []
+							},
+							{
+								"id": 116,
+								"name": "Filter sampling + gamma spectrometry",
+								"children": []
+							},
+							{
+								"id": 185,
+								"name": "Radiochemical Methods [general]",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 19,
+				"name": "Temperature",
+				"children": [
+					{
+						"id": 37,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 76,
+								"name": "Bimetal thermometer",
+								"children": []
+							},
+							{
+								"id": 144,
+								"name": "Liquid-in-glass thermometer (mercury-free)",
+								"children": []
+							},
+							{
+								"id": 149,
+								"name": "Mercury-in-glass thermometer",
+								"children": []
+							},
+							{
+								"id": 179,
+								"name": "Pyranometer (measurement of IR radiation)",
+								"children": []
+							},
+							{
+								"id": 188,
+								"name": "Resistance thermometer, thermistor",
+								"children": []
+							},
+							{
+								"id": 195,
+								"name": "Sonic thermometer",
+								"children": []
+							},
+							{
+								"id": 201,
+								"name": "Thermocouple, thermopile",
+								"children": []
+							},
+							{
+								"id": 202,
+								"name": "Thermometer-Thermoelement",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 46,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 182,
+								"name": "Radio acoustic sounding system (RASS)",
+								"children": []
+							},
+							{
+								"id": 269,
+								"name": "Light detection and ranging (Lidar) profiler",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 55,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 154,
+								"name": "Microwave profiler",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 20,
+				"name": "Total atmospheric deposition",
+				"children": [
+					{
+						"id": 38,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 67,
+								"name": "Anion exchange membrane (AEM)",
+								"children": []
+							},
+							{
+								"id": 70,
+								"name": "Atomic absorption spectrophotometry (AAS)",
+								"children": []
+							},
+							{
+								"id": 71,
+								"name": "Atomic emission spectrophotometry (AES)",
+								"children": []
+							},
+							{
+								"id": 83,
+								"name": "Capillary electrophoresis (CE)",
+								"children": []
+							},
+							{
+								"id": 85,
+								"name": "Chemiluminescence",
+								"children": [
+									{
+										"id": 270,
+										"name": "Tetrachloromercurate (TCM) absorption - CL",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 87,
+								"name": "Colorimetric titration (Gran method)",
+								"children": []
+							},
+							{
+								"id": 88,
+								"name": "Colorimetric titration [general]",
+								"children": []
+							},
+							{
+								"id": 89,
+								"name": "Colorimetry",
+								"children": [
+									{
+										"id": 90,
+										"name": "Colorimetry (Saltzman)",
+										"children": []
+									},
+									{
+										"id": 91,
+										"name": "Colorimetry (thorin)",
+										"children": []
+									},
+									{
+										"id": 271,
+										"name": "Colorimetry (ANSA)",
+										"children": []
+									},
+									{
+										"id": 272,
+										"name": "Colorimetry (Griess)",
+										"children": []
+									},
+									{
+										"id": 273,
+										"name": "Colorimetry (indophenol, Bertholet)",
+										"children": []
+									},
+									{
+										"id": 274,
+										"name": "Colorimetry (mercury thiocyanate+iron alum)",
+										"children": []
+									},
+									{
+										"id": 275,
+										"name": "Colorimetry (NEDA)",
+										"children": []
+									},
+									{
+										"id": 276,
+										"name": "Colorimetry (Nessler, K2HgI4)",
+										"children": []
+									},
+									{
+										"id": 277,
+										"name": "Colorimetry (sodium salicylate method for nitrate)",
+										"children": []
+									},
+									{
+										"id": 278,
+										"name": "Colorimetry [general]",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 98,
+								"name": "Denuder",
+								"children": []
+							},
+							{
+								"id": 110,
+								"name": "Electric conductivity (EC meter)",
+								"children": []
+							},
+							{
+								"id": 117,
+								"name": "Filter-based methods",
+								"children": [
+									{
+										"id": 279,
+										"name": "Filter sampling (analytical method unspecified)",
+										"children": []
+									},
+									{
+										"id": 280,
+										"name": "Adsorption tube (charcoal) + elution + GC",
+										"children": []
+									},
+									{
+										"id": 281,
+										"name": "Filter sampling + combustion + IC",
+										"children": []
+									},
+									{
+										"id": 282,
+										"name": "Filter sampling + combustion + other",
+										"children": []
+									},
+									{
+										"id": 283,
+										"name": "Filter sampling + extraction + IC",
+										"children": []
+									},
+									{
+										"id": 284,
+										"name": "Filter sampling + extraction + other",
+										"children": []
+									},
+									{
+										"id": 285,
+										"name": "Filter sampling + gravimetry",
+										"children": []
+									},
+									{
+										"id": 286,
+										"name": "Impregnated filter",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 121,
+								"name": "Flow injection analyzer (FIA)",
+								"children": []
+							},
+							{
+								"id": 129,
+								"name": "High Performance Liquid Chromatography (HPLC)",
+								"children": []
+							},
+							{
+								"id": 133,
+								"name": "ICP-AES",
+								"children": []
+							},
+							{
+								"id": 134,
+								"name": "ICP-MS",
+								"children": []
+							},
+							{
+								"id": 137,
+								"name": "Ion Chromatography (IC) [general]",
+								"children": []
+							},
+							{
+								"id": 157,
+								"name": "NILU_O_2",
+								"children": []
+							},
+							{
+								"id": 158,
+								"name": "NILU_O_3",
+								"children": []
+							},
+							{
+								"id": 168,
+								"name": "Photoacoustic detection",
+								"children": []
+							},
+							{
+								"id": 172,
+								"name": "Potentiometry (ion-selective electrode)",
+								"children": []
+							},
+							{
+								"id": 173,
+								"name": "Potentiometry (pH meter)",
+								"children": []
+							},
+							{
+								"id": 209,
+								"name": "Turbidity measurement",
+								"children": []
+							},
+							{
+								"id": 213,
+								"name": "Wet Chemical Methods [general]",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 21,
+				"name": "Trace gas",
+				"children": [
+					{
+						"id": 39,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 86,
+								"name": "Chemiluminescence",
+								"children": [
+									{
+										"id": 287,
+										"name": "Catalytic conversion 'Au' - CL",
+										"children": []
+									},
+									{
+										"id": 288,
+										"name": "Catalytic conversion 'Fe' - CL",
+										"children": []
+									},
+									{
+										"id": 289,
+										"name": "Catalytic conversion 'Mb' - CL",
+										"children": []
+									},
+									{
+										"id": 290,
+										"name": "Chemiluminescence (CL) [general]",
+										"children": []
+									},
+									{
+										"id": 291,
+										"name": "Photolytic conversion - CL",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 94,
+								"name": "Conductometry",
+								"children": []
+							},
+							{
+								"id": 99,
+								"name": "Denuder",
+								"children": []
+							},
+							{
+								"id": 114,
+								"name": "Faraday cup photochemistry",
+								"children": []
+							},
+							{
+								"id": 118,
+								"name": "Filter-based methods",
+								"children": [
+									{
+										"id": 293,
+										"name": "Filter sampling + photo multiplier tube (PMT)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 119,
+								"name": "Flame-ionization detector (FID)",
+								"children": []
+							},
+							{
+								"id": 120,
+								"name": "Flask sampling (analytical method unspecified)",
+								"children": []
+							},
+							{
+								"id": 122,
+								"name": "Fluorescence",
+								"children": [
+									{
+										"id": 294,
+										"name": "Fluorescence [general]",
+										"children": []
+									},
+									{
+										"id": 295,
+										"name": "UV fluorescence",
+										"children": []
+									},
+									{
+										"id": 296,
+										"name": "Vacuum UV fluorescence",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 124,
+								"name": "Gas chromatography",
+								"children": [
+									{
+										"id": 297,
+										"name": "Gas Chromatography (GC) [general]",
+										"children": []
+									},
+									{
+										"id": 298,
+										"name": "GC-ECD",
+										"children": []
+									},
+									{
+										"id": 299,
+										"name": "GC-ECD-FID",
+										"children": []
+									},
+									{
+										"id": 300,
+										"name": "GC-ECD-MS",
+										"children": []
+									},
+									{
+										"id": 301,
+										"name": "GC-FID",
+										"children": []
+									},
+									{
+										"id": 302,
+										"name": "GC-HgO reduction-UV absorption",
+										"children": []
+									},
+									{
+										"id": 303,
+										"name": "GC-MS",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 139,
+								"name": "Laser-based methods",
+								"children": [
+									{
+										"id": 305,
+										"name": "Cavity ring-down spectroscopy (CRDS)",
+										"children": []
+									},
+									{
+										"id": 306,
+										"name": "Cavity-enhanced absorption spectroscopy (CEAS)",
+										"children": []
+									},
+									{
+										"id": 307,
+										"name": "Integrated cavity output spectroscopy (ICOS)",
+										"children": []
+									},
+									{
+										"id": 308,
+										"name": "Laser induced fluorescence (LIF)",
+										"children": []
+									},
+									{
+										"id": 309,
+										"name": "Laser photoacoustic spectroscopy (LPAS)",
+										"children": []
+									},
+									{
+										"id": 310,
+										"name": "Laser spectroscopy [general]",
+										"children": []
+									},
+									{
+										"id": 311,
+										"name": "Quantum cascade laser (QCL) spectroscopy",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 148,
+								"name": "Mass spectrometry",
+								"children": [
+									{
+										"id": 312,
+										"name": "Chemical ionization MS (CIMS) with matrix isolation",
+										"children": []
+									},
+									{
+										"id": 313,
+										"name": "Proton transfer reaction mass spectrometry (PTR-MS)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 164,
+								"name": "Optical spectrometry",
+								"children": [
+									{
+										"id": 314,
+										"name": "IR spectrometry-radiometry [general]",
+										"children": []
+									},
+									{
+										"id": 315,
+										"name": "Light absorption photometry",
+										"children": []
+									},
+									{
+										"id": 316,
+										"name": "Long path absorption photometry (LOPAP)",
+										"children": []
+									},
+									{
+										"id": 317,
+										"name": "Non-dispersive IR (NDIR) absorption",
+										"children": []
+									},
+									{
+										"id": 318,
+										"name": "Non-dispersive UV (NDUV)",
+										"children": []
+									},
+									{
+										"id": 319,
+										"name": "UV absorption spectrometry-radiometry",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 167,
+								"name": "Passive Samplers [general]",
+								"children": []
+							},
+							{
+								"id": 191,
+								"name": "Separation + manometric determination",
+								"children": []
+							},
+							{
+								"id": 205,
+								"name": "Titration",
+								"children": []
+							},
+							{
+								"id": 216,
+								"name": "Ion Chromatography (IC)",
+								"children": [
+									{
+										"id": 292,
+										"name": "Monitor for AeRosols and GAses (MARGA) Metrohm",
+										"children": []
+									},
+									{
+										"id": 304,
+										"name": "H2O2 conversion - IC",
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 47,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 141,
+								"name": "Laser-based methods",
+								"children": [
+									{
+										"id": 320,
+										"name": "Differential absorption Lidar (DIAL)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 165,
+								"name": "Optical spectrometry",
+								"children": [
+									{
+										"id": 321,
+										"name": "Differential optical absorption (DOAS)",
+										"children": []
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 56,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 163,
+								"name": "Optical spectrometry",
+								"children": [
+									{
+										"id": 322,
+										"name": "Fourier-transform IR spectroscopy (FTIR)",
+										"children": []
+									},
+									{
+										"id": 323,
+										"name": "TCCON Fourier-transform IR spectroscopy (TCCON-FTIR)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 336,
+								"name": "Microwave radiometry",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 22,
+				"name": "Visual range",
+				"children": [
+					{
+						"id": 48,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 138,
+								"name": "Laser-based methods",
+								"children": [
+									{
+										"id": 324,
+										"name": "Light detection and ranging (Lidar)",
+										"children": []
+									}
+								]
+							},
+							{
+								"id": 190,
+								"name": "Scatterometer",
+								"children": []
+							},
+							{
+								"id": 207,
+								"name": "Transmissometer",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 23,
+				"name": "Wind",
+				"children": [
+					{
+						"id": 40,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 60,
+								"name": "(Ultra)sonic anemometer",
+								"children": []
+							},
+							{
+								"id": 63,
+								"name": "Aerovane (wind vane with propeller)",
+								"children": []
+							},
+							{
+								"id": 65,
+								"name": "Anemometer [general]",
+								"children": []
+							},
+							{
+								"id": 95,
+								"name": "Cup anemometer",
+								"children": []
+							},
+							{
+								"id": 96,
+								"name": "Cup anemometer (3 or 4 cups)",
+								"children": []
+							},
+							{
+								"id": 112,
+								"name": "Estimation from visual observation",
+								"children": []
+							},
+							{
+								"id": 130,
+								"name": "Hot wire anemometer",
+								"children": []
+							},
+							{
+								"id": 175,
+								"name": "Pressure plate (solid blade)",
+								"children": []
+							},
+							{
+								"id": 176,
+								"name": "Pressure tube",
+								"children": []
+							},
+							{
+								"id": 177,
+								"name": "Propeller anemometer",
+								"children": []
+							},
+							{
+								"id": 214,
+								"name": "Wind sock (textile tube)",
+								"children": []
+							},
+							{
+								"id": 215,
+								"name": "Wind vane (solid blade)",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 49,
+						"name": "Remote-sensing, active",
+						"children": [
+							{
+								"id": 184,
+								"name": "Radio detection and ranging (Radar) profiler",
+								"children": []
+							},
+							{
+								"id": 196,
+								"name": "Sound detection and ranging (Sodar) profiler",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 57,
+						"name": "Remote-sensing, passive",
+						"children": [
+							{
+								"id": 142,
+								"name": "Light detection and ranging (LIDAR) profiler",
+								"children": []
+							}
+						]
+					},
+					{
+						"id": 331,
+						"name": "Radiosonde (tracking unspecified)",
+						"children": []
+					},
+					{
+						"id": 332,
+						"name": "Pilot balloon with optical tracking)",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": 327,
+				"name": "Radiosonde with NAVAID",
+				"children": []
+			},
+			{
+				"id": 328,
+				"name": "Radiosonde with radar tracking",
+				"children": []
+			},
+			{
+				"id": 329,
+				"name": "Radiosonde with radiotheodolite tracking",
+				"children": []
+			},
+			{
+				"id": 330,
+				"name": "Radiosonde with composite method tracking",
+				"children": []
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Terrestrial",
+		"children": [
+			{
+				"id": 193,
+				"name": "Water equivalent of snow cover",
+				"children": [
+					{
+						"id": 262,
+						"name": "Snow pillows and snow scales",
+						"children": []
+					}
+				]
+			},
+			{
+				"id": 16,
+				"name": "Soil heat flux",
+				"children": [
+					{
+						"id": 34,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 128,
+								"name": "Heat flux plate",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 17,
+				"name": "Soil moisture",
+				"children": [
+					{
+						"id": 35,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 126,
+								"name": "Gravimetric method",
+								"children": []
+							},
+							{
+								"id": 159,
+								"name": "Neutron probe",
+								"children": []
+							},
+							{
+								"id": 187,
+								"name": "Resistance block tensiometer",
+								"children": []
+							},
+							{
+								"id": 200,
+								"name": "Tensiometer",
+								"children": []
+							},
+							{
+								"id": 203,
+								"name": "Time domain reflectometry (TDR)",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 18,
+				"name": "Soil temperature",
+				"children": [
+					{
+						"id": 36,
+						"name": "In situ",
+						"children": [
+							{
+								"id": 194,
+								"name": "Soil thermometer",
+								"children": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 342,
+				"name": "Snow depth",
+				"children": [
+					{
+						"id": 260,
+						"name": "Ultrasonic ranging",
+						"children": []
+					},
+					{
+						"id": 261,
+						"name": "Graduated device",
+						"children": []
+					},
+					{
+						"id": 344,
+						"name": "Laser ranging",
+						"children": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 61,
+		"name": "(inapplicable)",
+		"children": [],
+		"visibility": 1
+	}
+]

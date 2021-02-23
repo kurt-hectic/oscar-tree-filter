@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<meta>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="tree.jquery.js"></script>
+<link rel="stylesheet" href="jqtree.css"></link>
+
+</meta>
+<body>
+
+<div id="tree1" ></div>
+<form>
+<input type="text" id="filter_ids" /><label>filter for variables</label>
+<input type="submit"></input>
+</form>
+<script>
+
+	function filterTreeRec(ids,data) {
+		//console.log("checking"+JSON.stringify(data));
+		
+		var filter_on = ids.length > 0 ;
+		
+		if (filter_on && !ids.includes(data.id) && data.children.length==0 ) { // filter me out if I am a leaf node
+			//console.log("filtering out " + data.name + " because of" + ids);
+			ret = {};
+		} else {
+			var new_children = [];
+			var i;
+			for (i=0;i<data.children.length;i++) {
+				//console.log("in loop..checking " +JSON.stringify(data.children[i]));
+				var tmp;
+				tmp = filterTreeRec(ids,data.children[i]);
+				//console.log("checking inner " + JSON.stringify(tmp));
+				if (!jQuery.isEmptyObject(tmp) ) {
+					//console.log("pushing it");
+					new_children.push(tmp);
+				}
+			}
+			if (new_children.length == 0 &&  data.children.length > 0  ) { // no active children and inner node.. remove
+				ret = {}
+			} else {
+				data.children = new_children;
+				ret = data;
+			}
+		}
+		
+		//console.log("returning " +JSON.stringify(ret));
+		return ret;
+	}
+	
+	function filterTree(ids,data) {
+		//console.log("filerting for" + ids);
+		var ret = [];
+		var i;
+		for (i=0;i<data.length;i++) {
+			var tmp;
+			tmp = filterTreeRec(ids,data[i]);
+			if (!jQuery.isEmptyObject(tmp)) {
+				ret.push(tmp);
+			}
+		}
+		console.log("filterTree: returning " +JSON.stringify(ret));
+		return ret;
+	}
+	
+	function createTree() {
+	   $.getJSON("oscar-tree.json", function(data){
+			
+			str_ids = jQuery( "#filter_ids" ).val().split(',');
+
+			var i;
+			var ids = [];
+			for (i=0;i<str_ids.length;i++) {
+				if (str_ids[i]) {
+					ids.push( parseInt(str_ids[i]) );
+				}
+			}
+			
+			//console.log("creating tree "+ids);
+			data=filterTree(ids,data);
+			
+			// remove and re-insert tree element
+			$('#tree1').remove();
+			$('body').prepend( $('<div id="tree1" ></div>'));
+			
+			$('#tree1').tree({
+				data: data
+			});
+			
+        }).fail(function(){
+            console.log("An error has occurred.");
+        });
+	}
+	
+    $(document).ready(function(){
+		createTree();
+	});
+	
+	$( "form" ).submit(function( event ) {
+		createTree();
+		event.preventDefault();
+	});
+	
+	//console.log( JSON.stringify(data) );
+</script>
+</body>
+</html>
